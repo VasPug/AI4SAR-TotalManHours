@@ -4,7 +4,7 @@ from app.model.model import predict_pipeline
 from app.model.model import __version__ as model_version
 
 from fastapi.middleware.cors import CORSMiddleware
-
+#cors
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
