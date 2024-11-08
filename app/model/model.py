@@ -76,6 +76,6 @@ def predict_pipeline(subject_category, subject_activity, weather, age):
     X_new = X_new[categorical_features + numerical_features]
 
     # Make prediction using the model
-    pred = model.predict(X_new)
+    # pred = model.predict(X_new)
 
     return pred
